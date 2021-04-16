@@ -1,0 +1,97 @@
+body{
+    background-color: #f4f3f3 !important;
+}
+.logotext>h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vw !important;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+.logotext>p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2vw;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 40%;
+}
+.logoimg>img{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.coverimg{
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.ml-auto{
+    margin-left: auto !important;
+}
+.nav-item{
+    padding-right: 30px !important;
+    font-size: 1.3rem;
+}
+
+video{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.products{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 50vh 50vh;
+}
+.item{
+    width: 70%;
+    height: fit-content;
+    margin: auto;
+    display: block;
+    align-items: center;
+}
+.item>img{
+    max-width: 400px;
+    max-height: 400px;
+    display: block;
+    margin: auto;
+}
+.item>h2{
+    text-align: center;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #222831;
+    display: flex;
+    color: white;
+}
+footer>div{
+    margin: 10px 50px;
+}
+
+.wPad-intro, .wPad-feats{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.wPad-intro>.txt, .wPad-feats>.txt{
+    margin: 0 50px;    
+}
+
+.wPad-feats>img{
+    max-height: 500px;
+}
+
+form{
+    width: 55%;
+    margin: auto;
+}
